@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Play:wght@700&family=Work+Sans&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Work Sans", sans-serif;
+}
+/* Cart image */
+.cartImg{
+    padding: 2rem 3rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    align-items: center;
+    background-color: #f8f9fb;
+    margin-top: 20px;
+}
+.cartImg svg{
+    margin-bottom: 0;
+    font-size: 100px;
+}
+.flexButton a{
+    text-decoration: none;
+    color: white;
+}
