@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaAngleDown, FaSearch, FaUser, FaShoppingBasket, FaShoppingCart } from 'react-icons/fa';
+import { Link } from 'react-router-dom'
 
 function Navbar() {
     return (
@@ -21,7 +22,7 @@ function Navbar() {
                 </div>
             </div>
             <div className="head1">
-                <h1 className='name'>Freshnessecom</h1>
+                <h1 className='name'><Link to="/"> Freshnessecom</Link></h1>
                 <div className="searchBar">
                     <div className="categories">
                         <span>All Categories</span>
@@ -44,7 +45,7 @@ function Navbar() {
                 <div className="icons">
                     <FaUser />
                     <FaShoppingBasket />
-                    <FaShoppingCart />
+                    <Link to="/cart"> <FaShoppingCart /></Link>
                 </div>
             </div>
             <div className="head2">
@@ -54,7 +55,7 @@ function Navbar() {
                         <FaAngleDown />
                     </li>
                     <li>
-                        <span>Fruits and vegetables</span>
+                        <span><Link to="/products">Fruits and vegetables</Link></span>
                         <FaAngleDown />
                     </li>
                     <li>

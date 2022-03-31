@@ -43,6 +43,10 @@ li {
   padding: 2.5rem 3rem;
   background-color: #fff;
 }
+.name a{
+  color: #000;
+  text-decoration: none;
+}
 .searchBar {
   display: flex;
   align-items: center;
@@ -118,6 +122,9 @@ li {
   cursor: pointer;
   font-size: 27px;
 }
+.icons a{
+  color: #000;
+}
 
 /* Main Navbar */
 .head2 {
@@ -137,6 +144,10 @@ li {
   column-gap: 5px;
   cursor: pointer;
 }
+.head2 ul li a{
+  color: #000;
+  text-decoration: none;
+}
 .head2 ul li svg {
   color: #6b9a3e;
   margin-bottom: 0;
@@ -150,6 +161,10 @@ li {
 }
 .homepage span {
   color: #bbbcbe;
+}
+.homepage span a{
+  color: #bbbcbe;
+  text-decoration: none;
 }
 .homepage span:last-child {
   color: black;

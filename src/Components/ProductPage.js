@@ -3,6 +3,7 @@ import Navbar from './Navbar';
 import Filter from './Filter';
 import Products from './Products';
 import Footer from './Footer';
+import { Link } from 'react-router-dom'
 
 function Home() {
     return (
@@ -10,7 +11,7 @@ function Home() {
             <header>
                 <Navbar />
                 <div className='homepage'>
-                    <span>Homepage</span>
+                    <span><Link to="/">Homepage</Link></span>
                     <span>/</span>
                     <span>Fruits and vegetables</span>
                 </div>

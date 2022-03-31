@@ -2,13 +2,23 @@ import React from 'react'
 import ProductPage from './Components/ProductPage';
 import HomePage from './Components/HomePage';
 import CartPage from './Components/CartPage';
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+  Link,
+} from "react-router-dom";
 
 function App() {
   return (
     <>
-      {/* <HomePage /> */}
-      {/* <ProductPage /> */}
-      <CartPage />
+      <BrowserRouter>
+        <Routes>
+          <Route exact path="/" element={<HomePage />} />
+          <Route path="/products" element={<ProductPage />} />
+          <Route path="/cart" element={<CartPage />} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }
