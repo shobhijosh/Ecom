@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaAngleDown, FaSearch, FaUser, FaShoppingBasket } from 'react-icons/fa';
+import { FaAngleDown, FaSearch, FaUser, FaShoppingBasket, FaShoppingCart } from 'react-icons/fa';
 
 function Navbar() {
     return (
@@ -44,6 +44,7 @@ function Navbar() {
                 <div className="icons">
                     <FaUser />
                     <FaShoppingBasket />
+                    <FaShoppingCart />
                 </div>
             </div>
             <div className="head2">
