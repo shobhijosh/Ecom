@@ -37,7 +37,6 @@ function EcomProduct() {
                     <div className="buttons">
                         <button className="flexButton">
                             <span>Product Detail</span><FaAngleRight />
-
                         </button>
                         <button className="flexButton1">
                             <FaHeart />

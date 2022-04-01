@@ -5,8 +5,7 @@ import CartPage from './Components/CartPage';
 import {
   BrowserRouter,
   Routes,
-  Route,
-  Link,
+  Route
 } from "react-router-dom";
 
 function App() {

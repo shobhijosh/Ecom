@@ -318,6 +318,7 @@
   .container1 {
     flex-direction: column;
     align-items: center;
+    flex-wrap: nowrap;
   }
   .container2 {
     justify-content: center;
@@ -344,6 +345,7 @@
   .container6 .images,
   .container8 {
     flex-wrap: wrap;
+    justify-content: center;
   }
   .bigImg {
     width: 84.5vw;

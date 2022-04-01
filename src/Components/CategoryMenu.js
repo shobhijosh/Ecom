@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaAngleRight } from 'react-icons/fa';
+import { Link } from 'react-router-dom'
 
 function CategoryMenu() {
     return (
@@ -9,7 +10,7 @@ function CategoryMenu() {
                     <h3>Category Menu</h3>
                     <ul className="myUl1">
                         <li><a href="/">Bakery</a></li>
-                        <li><a href="/">Fruits and vegetables</a></li>
+                        <li><Link to="/products">Fruits and vegetables</Link></li>
                         <li><a href="/">Meat and fish</a></li>
                         <li><a href="/">Drinks</a></li>
                         <li><a href="/">Kitchen</a></li>
