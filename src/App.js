@@ -7,6 +7,7 @@ import {
   Routes,
   Route
 } from "react-router-dom";
+import ProductDetailPage from './Components/ProductDetailPage';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Routes>
           <Route exact path="/" element={<HomePage />} />
           <Route path="/products" element={<ProductPage />} />
+          <Route path="/productDetail" element={<ProductDetailPage />} />
           <Route path="/cart" element={<CartPage />} />
         </Routes>
       </BrowserRouter>

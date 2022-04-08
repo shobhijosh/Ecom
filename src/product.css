@@ -501,6 +501,67 @@ svg {
   cursor: pointer;
 }
 
+/* AboutProduct component */
+.container10{
+  padding: 4rem 3rem;
+  display: flex;
+  /* column-gap: 50px; */
+  flex-wrap: wrap;
+  row-gap: 40px;
+  align-items: flex-start;
+}
+.image3{
+  background-color: #f2f8ed;
+  height: 500px;
+  width: 35vw;
+  border-radius: 10px;
+}
+.flex1{
+  display: flex;
+  row-gap: 20px;
+  align-items: flex-start;
+  width: 52vw;
+  flex-wrap: wrap;
+  column-gap: 20px;
+  justify-content: space-evenly;
+}
+.about1{
+  display: flex;
+  column-gap: 40px;
+  color: #c8cbce;
+}
+.price1 span{
+  font-weight: 900;
+  color: #c8cbce;
+  text-decoration: line-through;
+}
+.ship1{
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  color: #c8cbce;
+}
+.details1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 10px;
+}
+.buttons2{
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.moreAbout{
+  width: 38vw;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.moreAbout p{
+  color: #8f8f8f;
+}
+
 /* Footer */
 .siteMap {
   padding: 4rem 3rem;
@@ -644,6 +705,20 @@ svg {
     margin-top: 2rem;
   }
 }
+@media screen and (max-width:738px) {
+  .image3{
+    height: 365px;
+    width: 87vw;
+  }
+  .flex1{
+    width: 87vw;
+    justify-content: space-evenly;
+  }
+  .moreAbout{
+    width: 85vw;
+  }
+  
+}
 @media screen and (max-width: 610px) {
   .head,
   .head1,
@@ -692,6 +767,14 @@ svg {
     margin-bottom: 0;
   }
 }
+@media screen and (max-width:529px) {
+  .aboutProduct1,.details1{
+    width: 60vw;
+  }
+  .flex1{
+    justify-content: center;
+  }
+}
 @media screen and (max-width: 533px) {
   .searchBar {
     padding: 0.5rem;
@@ -721,9 +804,21 @@ svg {
     font-size: 20px;
     margin-bottom: 1rem;
   }
+  .flex1{
+    justify-content: flex-start;
+  }
 }
 @media screen and (max-width: 343px) {
   .categories span {
     font-size: 13px;
+  }
+  .moreAbout {
+    width: 82vw;
+  }
+  .image3 {
+    width: 80vw;
+  }
+  .container10 {
+    padding: 4rem 2rem;
   }
 }

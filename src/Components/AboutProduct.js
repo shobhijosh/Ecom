@@ -2,16 +2,16 @@ import React from 'react'
 import { FaStar, FaAngleRight, FaHeart } from 'react-icons/fa';
 import { Link } from 'react-router-dom'
 
-function EcomProduct() {
+const AboutProduct = () => {
     return (
-        <div className="mainProduct">
-            <div className="image"></div>
-            <div className="flex">
-                <div className="aboutProduct">
+        <div className="container10">
+            <div className="image3"></div>
+            <div className="flex1">
+                <div className="aboutProduct1">
                     <h3>Product Title</h3>
                     <p>Space for a small description</p>
                     <FaStar /><FaStar /><FaStar /><FaStar />
-                    <div className="about">
+                    <div className="about1">
                         <ul>
                             <li>Freshness</li>
                             <li>Farm</li>
@@ -26,18 +26,18 @@ function EcomProduct() {
                         </ul>
                     </div>
                 </div>
-                <div className="details">
-                    <div className="price">
+                <div className="details1">
+                    <div className="price1">
                         <h3>36.9 USD</h3>
                         <span>48.56</span>
                     </div>
-                    <div className="ship">
+                    <div className="ship1">
                         <span>Free Shipping</span>
                         <span>Delivery in 1 day</span>
                     </div>
-                    <div className="buttons">
+                    <div className="buttons2">
                         <button className="flexButton">
-                            <Link to="/productDetail">Product Detail</Link><FaAngleRight />
+                            <Link to="/productDetail">Buy Now</Link><FaAngleRight />
                         </button>
                         <button className="flexButton1">
                             <FaHeart />
@@ -45,9 +45,13 @@ function EcomProduct() {
                         </button>
                     </div>
                 </div>
+                <div className="moreAbout">
+                    <h2>More About Product</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam quae ipsum consectetur neque! Incidunt molestias sint magnam quisquam soluta, fuga voluptate, ea aliquid quibusdam magni quas minima, veritatis natus. Dicta maiores assumenda mollitia quidem! Ea distinctio perferendis quibusdam placeat veritatis omnis quia laudantium est quas veniam. Voluptates ea modi vel!</p>
+                </div>
             </div>
         </div>
     )
 }
 
-export default EcomProduct
+export default AboutProduct
