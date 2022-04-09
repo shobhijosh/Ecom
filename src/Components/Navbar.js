@@ -16,7 +16,7 @@ function Navbar() {
                 <div className="navItems">
                     <ul>
                         <li>Blog</li>
-                        <li>About Us</li>
+                        <li><Link to="/aboutUs">About Us</Link></li>
                         <li>Carrers</li>
                     </ul>
                 </div>

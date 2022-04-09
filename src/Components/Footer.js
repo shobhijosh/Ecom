@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Footer() {
     return (
@@ -7,7 +8,7 @@ function Footer() {
                 <div className="getInTouch">
                     <h3>Get In Touch</h3>
                     <ul className="myUl">
-                        <li><a href="/">About Us</a></li>
+                        <li><Link to="/aboutUs">About Us</Link></li>
                         <li><a href="/">Careers</a></li>
                         <li><a href="/">Press Releases</a></li>
                         <li><a href="/">Blog</a></li>

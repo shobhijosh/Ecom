@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './product.css';
-import './index.css'
-import './cart.css'
+import './index.css';
+import './cart.css';
+import './about.css';
 import App from './App';
 
 ReactDOM.render(

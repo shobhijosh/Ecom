@@ -35,6 +35,10 @@ li {
   color: #6b9a3e;
   cursor: pointer;
 }
+.navItems ul li a{
+  text-decoration: none;
+  color:#6b9a3e;
+}
 
 /* Sub navbar */
 .head1 {
