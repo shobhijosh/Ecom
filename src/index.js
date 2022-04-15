@@ -4,6 +4,7 @@ import './product.css';
 import './index.css';
 import './cart.css';
 import './about.css';
+import './help.css';
 import App from './App';
 
 ReactDOM.render(

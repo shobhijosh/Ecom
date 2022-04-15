@@ -39,7 +39,7 @@ function Footer() {
                         <li><a href="/">Returns centre</a></li>
                         <li><a href="/">100% Purchase protection</a></li>
                         <li><a href="/">Chat with us</a></li>
-                        <li><a href="/">Help</a></li>
+                        <li><Link to="/help">Help</Link></li>
                     </ul>
                 </div>
             </div>

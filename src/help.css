@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Play:wght@700&family=Work+Sans&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Work Sans", sans-serif;
+}
+.container12{
+    padding: 2rem 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+}
+.accordion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+}
+.accordionItem{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    box-shadow: 0rem 0.5rem 1rem lightgreen;
+    width:60vw;
+    padding: 1rem;
+}
+.question{
+    padding: 1rem;
+    background-color: #b4ffb4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.question p{
+    font-size: 18px;
+}
+.question span{
+    height: 32px;
+    width: 32px;
+    padding: 0.5rem;
+    background: #000;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+}
+.question svg{
+    color: #fff;
+    margin-bottom: 0rem;
+}
+@media screen and (max-width:768px) {
+    .accordionItem{
+        width: 85vw;
+    }
+}
+@media screen and (max-width:375px) {
+    .accordionItem{
+        width: 90vw;
+    }
+}

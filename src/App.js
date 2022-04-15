@@ -10,6 +10,7 @@ import {
 import ProductDetailPage from './Components/ProductDetailPage';
 import AboutUsPage from './Components/AboutUsPage';
 import GoToTop from './Components/GoToTop';
+import HelpPage from './Components/HelpPage';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="/productDetail" element={<ProductDetailPage />} />
           <Route path="/cart" element={<CartPage />} />
           <Route path="/aboutUs" element={<AboutUsPage />} />
+          <Route path="/help" element={<HelpPage />} />
         </Routes>
       </BrowserRouter>
     </>
